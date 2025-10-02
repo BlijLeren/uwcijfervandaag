@@ -17,6 +17,7 @@ body {
     text-align: center;
     color: #fff;
 }
+
 #nieuw-bericht {
     font-size: 3.2em;
     margin-bottom: 18px;
@@ -26,7 +27,7 @@ button, #read-more-btn {
     color: #0096DC;
     border: none;
     padding: 20px 22px;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 3em;
     margin: 70px 0;
     cursor: pointer;
@@ -45,6 +46,10 @@ button:hover, #read-more-btn:hover {
     margin: 12px 0;
     font-size: 3.2em;
     color: #fff;
+}
+
+#fact-container {
+    margin: 8%;
 }
 
 #bericht-container {
