@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const arrowBtn = document.getElementById('arrow-btn');
     const factContainer = document.getElementById('fact-container');
     const readMoreBtn = document.getElementById('read-more-btn');
+    const readMoreContent = document.getElementById('readmore-content');
     const container = document.querySelector('.container');
     const loadingMessage = document.getElementById('loading-message');
     const nieuwBericht = document.getElementById('nieuw-bericht');
@@ -97,5 +98,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         arrowBtn.classList.remove('visible');
         factContainer.textContent = currentC.fact;
         readMoreBtn.style.display = 'inline-block';
+    });
+
+    readMoreBtn.addEventListener('click', () => {
+            void readMoreContent.offsetWidth;
+            readMoreContent.classList.add('visible');
+
+        setTimeout(() => {
+            readMoreContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 100);
+                readMoreContent.style.display = 'block';
+
     });
 });

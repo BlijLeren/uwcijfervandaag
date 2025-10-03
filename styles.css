@@ -1,6 +1,6 @@
 body {
     font-family: 'Futura', Arial, Helvetica, sans-serif;
-    background: #0096DC;
+    background: #008dcf;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -106,4 +106,69 @@ button:hover, #read-more-btn:hover {
 }
 .loading #loading-message {
     display: block;
+}
+.readmore-vertical-center {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 4vw 2vw;
+    position: absolute;
+}
+
+.readmore-title {
+    font-size: 2.5em;
+    margin: 0.7em 0 0.5em 0;
+    text-align: left;
+    font-family: 'Futura', Arial, Helvetica, sans-serif;
+        width: 80%;
+        
+
+}
+
+.glink {
+    color: #ffc400;
+}
+
+.readmore-intro,
+.readmore-options,
+.readmore-regular {
+    width: 80%;
+    font-size: 2.4em;
+    margin: 0.7em 0 1.5em 0;
+    text-align: left;
+    font-family: 'Futura', Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+#readmore-content {
+    display: block;
+    opacity: 0;
+    margin-top: 80px;
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: opacity 2.2s;
+}
+
+#readmore-content.visible {
+    opacity: 1;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 800px) {
+    .readmore-title {
+        font-size: 1.5em;
+    }
+    .readmore-intro,
+    .readmore-options,
+    .readmore-regular {
+        font-size: 1em;
+        padding: 0 0.5em;
+    }
 }
