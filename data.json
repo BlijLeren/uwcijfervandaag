@@ -1,43 +1,42 @@
 {
-    "c1": {
+  "c1": {
     "bericht": "Dit is uw cijfer vandaag:",
     "cijfer": "5,4",
     "fact": "Wist u dat schoolcijfers resulteren in een afname van intrinsieke motivatie en interesse in leren?"
   },
-    "c2": {
-    "bericht": "Vandaag krijg u een:",
+  "c2": {
+    "bericht": "Vandaag krijgt u een:",
     "cijfer": "6,1",
     "fact": "Wist u dat schoolcijfers ervoor zorgen dat leerlingen uitdagingen vermijden in hun leerproces?"
   },
-    "c4": {
-    "bericht": "Vandaag krijg u een:",
+  "c4": {
+    "bericht": "Vandaag krijgt u een:",
     "cijfer": "4,2",
     "fact": "Wist u dat schoolcijfers nieuwsgierigheid en het kritisch denken remmen?"
   },
-    "c5": {
-    "bericht": "Vandaag krijg u een:",
+  "c5": {
+    "bericht": "Vandaag krijgt u een:",
     "cijfer": "3,1",
     "fact": "Wist u dat schoolcijfers slechts een deel laten zien van wat een kind kan?"
   },
-    "c6": {
+  "c6": {
     "bericht": "Dit is uw cijfer vandaag:",
     "cijfer": "2,1",
     "fact": "Wist u dat schoolcijfers resulteren in een afname van intrinsieke motivatie en interesse in leren?"
   },
-    "c7": {
+  "c7": {
     "bericht": "Dit is uw cijfer vandaag:",
     "cijfer": "3,9",
     "fact": "Wist u dat schoolcijfers ervoor zorgen dat leerlingen uitdagingen vermijden in hun leerproces?"
   },
-    "c8": {
+  "c8": {
     "bericht": "Dit is uw cijfer vandaag:",
     "cijfer": "6,2",
     "fact": "Wist u dat schoolcijfers nieuwsgierigheid en het kritisch denken remmen?"
   },
-    "c9": {
+  "c9": {
     "bericht": "Dit is uw cijfer vandaag:",
     "cijfer": "5,3",
     "fact": "Wist u dat schoolcijfers slechts een deel laten zien van wat een kind kan?"
   }
 }
-
